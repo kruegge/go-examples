@@ -6,7 +6,7 @@ func main() {
 	var requestMap = make(map[string]interface{})
 	requestMap["query"] = "1234"
 
-	var responseMap = make(map[string]interface{})
+	responseMap := make(map[string]interface{})
 	//responseMap = requestMap
 	CopyMap(requestMap, &responseMap)
 
